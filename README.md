@@ -1,38 +1,37 @@
- i_am_poor &  i_am_rich: App đơn giản để làm quen với các widget cơ bản và bố cục UI.
- flash_chat: App chat sử dụng Firebase, giúp hiểu về kết nối backend và dữ liệu thời gian thực.
- todoey: App to-do list, tập trung vào lưu dữ liệu và cập nhật UI động.
- clima: App hiển thị thời tiết theo thời gian thực, dùng để học cách gọi API và lập trình bất đồng bộ.
- chatiu: App chat clone
- noteapp: tạo và sửa xóa các ghi chú trong thời gian thực
- profileapp: app hiện thị thông tin cá nhân
- reader: aREST API với NewsAPI.org em chi tiết bài viết
- 
+# 🚀 Flutter Mini Projects Collection
 
-🛠️ Cách chạy từng dự án
-1. Chuẩn bị môi trường
-Bạn cần cài các công cụ sau:
+Thư mục này bao gồm nhiều ứng dụng Flutter nhỏ, mỗi ứng dụng tập trung vào một khía cạnh khác nhau của lập trình Flutter – từ UI cơ bản đến kết nối API và Firebase.
 
-Flutter SDK: Tải Flutter
-Visual Studio Code (VSCode): Tải VSCode
-Tiện ích Flutter & Dart cho VSCode: Cài trong mục Extensions.
-2. Clone repo về máy
+---
+
+## 📱 Danh sách dự án
+
+| Project | Mô tả |
+|----------|-------|
+| **i_am_poor** & **i_am_rich** | App đơn giản để làm quen với các **widget cơ bản** và **bố cục UI**. |
+| **flash_chat** | App chat sử dụng **Firebase**, giúp hiểu về **kết nối backend** và **dữ liệu thời gian thực**. |
+| **todoey** | App **to-do list**, tập trung vào **lưu dữ liệu** và **cập nhật UI động** bằng Provider. |
+| **clima** | App **hiển thị thời tiết theo thời gian thực**, dùng để học **gọi API** và **lập trình bất đồng bộ**. |
+| **chatiu** | App **chat clone**, mô phỏng giao diện chat giống các ứng dụng phổ biến. |
+| **noteapp** | App **ghi chú**, có thể **tạo, sửa, xóa** ghi chú trong thời gian thực. |
+| **profileapp** | App **hiển thị thông tin cá nhân**, giúp luyện tập bố cục và UI Flutter. |
+| **reader** | App đọc tin tức sử dụng **REST API với NewsAPI.org**, hiển thị và xem chi tiết bài viết. |
+
+---
+
+## 🛠️ Cách chạy từng dự án
+
+### 1️⃣ Chuẩn bị môi trường
+Cài đặt các công cụ cần thiết:
+
+- **Flutter SDK:** [Tải tại đây](https://flutter.dev/docs/get-started/install)  
+- **Visual Studio Code (VSCode):** [Tải VSCode](https://code.visualstudio.com/)  
+- **Extensions:** Cài đặt **Flutter** và **Dart** trong VSCode.
+
+---
+
+### 2️⃣ Clone repo về máy
 Mở terminal và chạy:
-
+```bash
 git clone https://github.com/nga4704/LabFlutter.git
 cd LabFlutter
-3. Di chuyển vào thư mục dự án cần chạy
-Ví dụ để chạy BMI Calculator:
-
-cd bmi_calculator
-4. Cài đặt thư viện cần thiết
-Chạy lệnh sau:
-
-flutter pub get
-5. Chạy app
-Kết nối thiết bị thật hoặc mở trình giả lập, sau đó chạy:
-
-flutter run
-Hoặc mở bằng VSCode:
-
-Mở thư mục project.
-Nhấn F5 hoặc vào menu Run > Start Debugging.
