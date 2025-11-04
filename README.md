@@ -33,5 +33,5 @@ Cài đặt các công cụ cần thiết:
 ### 2️⃣ Clone repo về máy
 Mở terminal và chạy:
 ```bash
-git clone https://github.com/nga4704/LabFlutter.git
+https://github.com/minhne0914/10projectFlutter.git
 cd LabFlutter
